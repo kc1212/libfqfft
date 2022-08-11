@@ -1,5 +1,23 @@
 # Tutorials
 add_executable(
+  polynomial_multiplication_fp2
+  EXCLUDE_FROM_ALL
+
+  polynomial_multiplication_on_fp2_fft_example.cpp
+)
+target_link_libraries(
+  polynomial_multiplication_fp2
+
+  ff
+)
+target_include_directories(
+  polynomial_multiplication_fp2
+
+  PUBLIC
+  ${DEPENDS_DIR}/libff/
+)
+
+add_executable(
   polynomial_multiplication
   EXCLUDE_FROM_ALL
 

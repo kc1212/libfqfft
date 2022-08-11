@@ -117,6 +117,7 @@ if ("${IS_LIBFQFFT_PARENT}")
     COMMAND lagrange_polynomial_evaluation
     COMMAND polynomial_evaluation
     COMMAND polynomial_multiplication
+    COMMAND polynomial_multiplication_fp2
   )
 
   # Add a `make check` target that builds and tests

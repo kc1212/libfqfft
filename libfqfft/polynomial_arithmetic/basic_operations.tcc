@@ -75,7 +75,7 @@ void _polynomial_addition(std::vector<FieldT> &c, const std::vector<FieldT> &a, 
             std::copy(b.begin() + a_size, b.end(), c.begin() + a_size);
         }
     }
-        
+
     _condense(c);
 }
 
@@ -95,7 +95,7 @@ void _polynomial_subtraction(std::vector<FieldT> &c, const std::vector<FieldT> &
     {
         size_t a_size = a.size();
         size_t b_size = b.size();
-        
+
         if (a_size > b_size)
         {
             c.resize(a_size);
