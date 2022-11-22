@@ -10,3 +10,5 @@
 [submodule "depends/libff/"]
 	path = depends/libff
 	url = https://github.com/kc1212/libff.git
+[submodule "depends/libff"]
+	url = https://github.com/kc1212/libff.git
